@@ -1,0 +1,32 @@
+@import '../base/variables.scss';
+@import '../base/mixin';
+
+.home {
+
+    // .home__responsive
+
+    &__responsive {
+    }
+}
+.responsive-home {
+    margin-bottom: 100px;
+
+    // .responsive-home__container
+
+    &__container {
+    }
+
+    // .responsive-home__background
+
+    &__background {
+        width: 500px;
+        height: 400px;
+        background-image: url('https://picsum.photos/id/237/320/240');
+        background-size: cover;
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx){
+            background-image: url('https://picsum.photos/id/237/640/480');
+        }
+    }
+}

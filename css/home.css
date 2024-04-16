@@ -1,0 +1,14 @@
+.responsive-home {
+  margin-bottom: 100px;
+}
+.responsive-home__background {
+  width: 500px;
+  height: 400px;
+  background-image: url("https://picsum.photos/id/237/320/240");
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .responsive-home__background {
+    background-image: url("https://picsum.photos/id/237/640/480");
+  }
+}
